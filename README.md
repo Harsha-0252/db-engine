@@ -1,10 +1,10 @@
 # Java Relational Database Engine
 
-![Java](https://img.shields.io/badge/Java-17-orange)
+![Java](https://img.shields.io/badge/Java-21-orange)
 ![Build](https://img.shields.io/badge/Build-Maven-blue)
 ![Tests](https://img.shields.io/badge/Tests-JUnit%205-green)
 
-A relational database engine built from scratch in Java 17: slotted pages, a buffer pool with LRU eviction, a disk-backed B+Tree, and a hand-written SQL parser.
+A relational database engine built from scratch in Java 21 : slotted pages, a buffer pool with LRU eviction, a disk-backed B+Tree, and a hand-written SQL parser.
 
 ## Table of Contents
 
@@ -79,7 +79,7 @@ It is designed as a standalone, file-based engine. It operates locally via a cus
 
 **Prerequisites:**
 
-- Java 17+
+- Java 21+
 - Maven 3.6+
 
 Clone the repository and build the fat JAR:
